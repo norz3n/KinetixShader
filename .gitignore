@@ -1,0 +1,14 @@
+# Archives & Releases
+*.zip
+*.tar.gz
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

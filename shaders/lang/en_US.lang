@@ -1,0 +1,55 @@
+# English Localization for AstraCHS 1.21.1
+profile.IGPU_UHD620=Intel UHD 620/630 (Max FPS + PCSS)
+profile.IGPU_BALANCED=Balanced (UHD 630 / Vega / Iris Xe)
+profile.DEDICATED_HIGH=Ultra PCSS (Dedicated GPUs)
+profile.SHADOWLESS_TURBO=Shadowless Turbo (Potato Mode)
+
+screen.SHADOW_SCREEN=PCSS / CHS Shadows
+screen.WAVING_SCREEN=World Animation (Everything Moves)
+screen.ATMOS_WATER_SCREEN=Water, Lighting & Atmosphere
+screen.POST_SCREEN=Post-Processing & Sharpening
+
+option.SHADOW_QUALITY=Shadow Mode
+value.SHADOW_QUALITY.0=Off (Shadowless)
+value.SHADOW_QUALITY.1=Fast PCSS (iGPU)
+value.SHADOW_QUALITY.2=Balanced PCSS
+value.SHADOW_QUALITY.3=Ultra PCSS/CHS
+
+option.shadowMapResolution=Shadow Map Resolution
+option.shadowDistance=Shadow Distance (Blocks)
+option.PCSS_ENABLED=Contact-Hardening Shadows (PCSS/CHS)
+option.PCSS_SOFTNESS=Far Penumbra Softness
+option.PCSS_CONTACT_SHARPNESS=Contact Point Sharpness
+option.PCSS_BLOCKER_SAMPLES=Blocker Search Samples
+option.PCSS_PCF_SAMPLES=Penumbra Filter Samples
+option.COLORED_SHADOWS=Colored Translucent Shadows
+
+option.WAVING_ALL=Master World Animation
+option.WAVING_TERRAIN=Waving Grass, Flowers & Leaves
+option.WAVING_CROPS=Waving Wheat & Crops
+option.WAVING_VINES=Waving Vines, Sugar Cane & Fire
+option.WAVING_UNDERWATER=Waving Kelp, Seagrass & Coral
+option.WAVING_LANTERNS=Swinging Lanterns & Chains
+option.WAVING_WATER=Geometric Water & Lava Waves
+option.WAVING_WEATHER=Wind-Tilted Rain & Snow
+option.WIND_SPEED=Wind Speed
+option.WIND_STRENGTH=Wind Amplitude
+
+option.WATER_SSR=Screen-Space Water Reflections (SSR)
+option.WATER_CAUSTICS=Underwater Caustics & Shore Foam
+option.WATER_WAVES=Water Wave Detail & Specular
+option.WATER_FOAM_OPACITY=Shoreline Foam Intensity
+option.GODRAYS=Volumetric Sun Shafts (Godrays)
+option.FOG_DENSITY=Atmospheric Fog Density
+option.DYNAMIC_HANDLIGHT=Dynamic Handheld Torchlight
+option.FLICKER_TORCH=Organic Torch & Campfire Flicker
+option.FOLIAGE_SSS=Foliage Subsurface Scattering (SSS)
+
+option.TONEMAP_OPERATOR=Tonemapping Operator
+value.TONEMAP_OPERATOR.0=ACES Filmic
+value.TONEMAP_OPERATOR.1=Neutral Lottes
+option.BLOOM_ENABLED=Soft Glow (Bloom)
+option.BLOOM_STRENGTH=Bloom Intensity
+option.CAS_SHARPEN=Contrast-Adaptive Sharpening (AMD CAS)
+option.CAS_STRENGTH=CAS Sharpening Strength
+option.VIBRANCE=Color Vibrance

@@ -1,0 +1,55 @@
+# Русская локализация AstraCHS 1.21.1
+profile.IGPU_UHD620=Intel UHD 620/630 (Макс. FPS + PCSS)
+profile.IGPU_BALANCED=Баланс (UHD 630 / Vega / Iris Xe)
+profile.DEDICATED_HIGH=Ультра PCSS (Дискретные GPU)
+profile.SHADOWLESS_TURBO=Турбо без теней (Слабые ноутбуки)
+
+screen.SHADOW_SCREEN=Тени PCSS / CHS
+screen.WAVING_SCREEN=Анимация мира (Всё движется)
+screen.ATMOS_WATER_SCREEN=Вода, свет и атмосфера
+screen.POST_SCREEN=Постобработка и резкость
+
+option.SHADOW_QUALITY=Режим теней
+value.SHADOW_QUALITY.0=Выкл (Shadowless)
+value.SHADOW_QUALITY.1=Быстрые PCSS (iGPU)
+value.SHADOW_QUALITY.2=Сбалансированные PCSS
+value.SHADOW_QUALITY.3=Ультра PCSS/CHS
+
+option.shadowMapResolution=Разрешение карты теней
+option.shadowDistance=Дальность теней (блоков)
+option.PCSS_ENABLED=Контактное твердение (PCSS/CHS)
+option.PCSS_SOFTNESS=Мягкость дальних полутеней
+option.PCSS_CONTACT_SHARPNESS=Резкость теней в точке контакта
+option.PCSS_BLOCKER_SAMPLES=Выборки поиска блокера (PCSS)
+option.PCSS_PCF_SAMPLES=Выборки фильтрации полутени
+option.COLORED_SHADOWS=Цветные тени от витражей и воды
+
+option.WAVING_ALL=Глобальная анимация мира
+option.WAVING_TERRAIN=Качание травы, цветов и листвы
+option.WAVING_CROPS=Волны на полях пшеницы и посевов
+option.WAVING_VINES=Качание лиан, тростника и огня
+option.WAVING_UNDERWATER=Течение ламинарии и водорослей
+option.WAVING_LANTERNS=Маятниковое качание фонарей и цепей
+option.WAVING_WATER=Геометрические волны на воде и лаве
+option.WAVING_WEATHER=Наклон дождя и снега по ветру
+option.WIND_SPEED=Скорость ветра
+option.WIND_STRENGTH=Амплитуда ветра
+
+option.WATER_SSR=Экранные отражения в воде (SSR)
+option.WATER_CAUSTICS=Подводные солнечные каустики и пена
+option.WATER_WAVES=Детализация волн и бликов воды
+option.WATER_FOAM_OPACITY=Плотность прибрежной пены
+option.GODRAYS=Объёмные лучи солнца (Godrays)
+option.FOG_DENSITY=Плотность атмосферной дымки
+option.DYNAMIC_HANDLIGHT=Динамический свет от факела в руке
+option.FLICKER_TORCH=Живое мерцание факелов и костров
+option.FOLIAGE_SSS=Просвечивание листвы на солнце (SSS)
+
+option.TONEMAP_OPERATOR=Оператор цветокоррекции
+value.TONEMAP_OPERATOR.0=ACES Filmic (Кинематографичный)
+value.TONEMAP_OPERATOR.1=Neutral Lottes (Натуральный)
+option.BLOOM_ENABLED=Мягкое свечение (Bloom)
+option.BLOOM_STRENGTH=Сила свечения (Bloom)
+option.CAS_SHARPEN=Адаптивная резкость (AMD CAS)
+option.CAS_STRENGTH=Интенсивность резкости CAS
+option.VIBRANCE=Сочность цветов (Vibrance)
